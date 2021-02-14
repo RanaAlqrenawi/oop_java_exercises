@@ -1,10 +1,7 @@
 
 package com.techreturners.cats;
-public class DomesticCat implements Cat{
-    public boolean isAsleep(){    
-        return true;      
-    }
-    public boolean goToSleep(){
-        return true;
+public class DomesticCat extends AbstractCat{
+    public DomesticCat() {
+        super(false,"domestic",23,"Purrrrrrr");
     }
 }  
